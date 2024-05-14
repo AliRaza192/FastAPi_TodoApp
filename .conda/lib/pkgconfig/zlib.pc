@@ -1,0 +1,13 @@
+prefix=/home/ali-raza/Desktop/Todo App/.conda
+exec_prefix=/home/ali-raza/Desktop/Todo App/.conda
+libdir=/home/ali-raza/Desktop/Todo App/.conda/lib
+sharedlibdir=/home/ali-raza/Desktop/Todo App/.conda/lib
+includedir=/home/ali-raza/Desktop/Todo App/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
